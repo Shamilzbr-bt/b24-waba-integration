@@ -1,0 +1,24 @@
+{
+  "placement": {
+    "contact_center": {
+      "title": "WhatsApp (Meta)",
+      "icon": "https://yourserver.com/assets/img/whatsapp-icon.png",
+      "handler": "https://yourserver.com/admin/setup.php"
+    }
+  },
+  "name": "Meta WhatsApp Connector",
+  "description": "Connect Meta WhatsApp to Bitrix24 Open Channels",
+  "type": "REST_APP",
+  "version": "1.0.0",
+  "author": "WhatsApp Bitrix Integration",
+  "scope": [
+    "imopenlines",
+    "crm",
+    "im"
+  ],
+  "languages": [
+    "en"
+  ],
+  "install_url": "https://yourserver.com/admin/install.php",
+  "uninstall_url": "https://yourserver.com/admin/uninstall.php"
+}
